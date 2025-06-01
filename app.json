@@ -1,0 +1,39 @@
+{
+    "name": "𝐓𝐞𝐱𝐭 Uploader BHARAT  ™",
+    "description": "Download videos from various websites using this telegram bot",
+    "logo": "https://envs.sh/srE.jpg",
+    "keywords": [
+        "text-video",
+        "video-extract",
+        "pyrogram"
+    ],
+    "repository": "https://github.com/bharat-029/Chiru-uploader-new-01",
+    "success_url": "https://t.me/+vzhqb2RVeTcyMTNl",
+    "stack": "container",
+    "env": {
+        "API_ID": {
+            "description": "23664819",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "3853f97c662d5d08cee5f0d07361361e",
+            "required": true
+        },
+        "BOT_TOKEN": {
+            "description": "Enter your bot token",
+            "required": true
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "https://github.com/amivin/aria2-heroku.git"
+        },
+        {
+            "url": "heroku/python"
+        },       
+        {
+            "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest.git"
+        }
+    ]
+    }
