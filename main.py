@@ -78,7 +78,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 YOUR_ADMIN_ID = 6886826162
 
 # Function to read subscription data
-def read_subscription_data():
+def read_subscription_data(6886826162):
     if not os.path.exists(SUBSCRIPTION_FILE):
         return []
     with open(SUBSCRIPTION_FILE, "r") as f:
